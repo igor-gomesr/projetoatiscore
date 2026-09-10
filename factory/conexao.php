@@ -11,7 +11,7 @@
                 {
                  self::$connect = new PDO(
                 'mysql: host=localhost;
-                 dbname=bdatiscore;',self::$usuario,self::$senha
+                 dbname=administrador_projetoatiscore;',self::$usuario,self::$senha
                 );
                 }
              } catch (Exception $ex) {

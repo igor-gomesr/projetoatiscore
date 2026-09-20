@@ -18,10 +18,8 @@ require_once("factory/conexao.php");
       <span>ATI</span>Score
     </div>
     <nav class="nav-links">
-      <a href="#">Recursos</a>
+      <a href="./view/avaliacoes.php">Avaliações</a>
       <a href="#">Sobre</a>
-      <a href="#">Planos</a>
-      <a href="#">Contato</a>
       <a href="./view/login.php" class="btn-login">Entrar</a>
       <a href="./view/cadastro.php" class="btn-signup">Cadastrar-se</a>
     </nav>

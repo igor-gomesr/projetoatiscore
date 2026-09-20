@@ -1,6 +1,6 @@
 <?php
-session_start(); 
-require_once('../factory/conexao.php'); 
+session_start();
+require_once('../factory/conexao.php');
 
 if (isset($_POST['Cadastrar'])) {
     $nome = $_POST['nome'] ?? '';
@@ -32,9 +32,12 @@ if (isset($_POST['Cadastrar'])) {
         exit();
     }
 
-    $query = "INSERT INTO usuarios (nome, email, senha) VALUES (:nome, :email, SHA1(:senha))";
-    $cadastrar = $pdo->prepare($query);   
-    
+
+    $senha = password_hash($senha, PASSWORD_DEFAULT);
+
+    $query = "INSERT INTO usuarios (nome, email, senha) VALUES (:nome, :email, :senha)";
+    $cadastrar = $pdo->prepare($query);
+
     $cadastrar->bindParam(':nome', $nome, PDO::PARAM_STR);
     $cadastrar->bindParam(':email', $email, PDO::PARAM_STR);
     $cadastrar->bindParam(':senha', $senha, PDO::PARAM_STR);

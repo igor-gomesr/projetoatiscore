@@ -1,10 +1,13 @@
 <?php
+require_once('../factory/auth.php');
 ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>ATI Score - Avaliações</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATIScore - Avaliações</title>
     <link rel="stylesheet" href="../css/style_dados.css">
 </head>
 <body>
@@ -12,19 +15,19 @@
 <div class="dashboard-container">
     <div class="sidebar">
         <div>
-            <div class="logo">ATI<span>Score</span></div>
+            <div class="logo"><a href="../index.php"> <span>ATI</span>Score</a></div>
             <ul class="menu">
-                <li><a href="#">🏠 Início</a></li>
-                <li><a href="dados_fisicos.php">📈 Dados físicos</a></li>
-                <li class="active"><a href="avaliacoes.php">📱 Avaliações</a></li>
-                <li><a href="#">⭐ Nível físico</a></li>
+                <!-- <li><a href="#">🏠 Início</a></li> 
+                <li><a href="dados_fisicos.php">📈 Dados físicos</a></li> -->
+                <li class="active"><a href="avaliacoes.php">Avaliações</a></li>
+            <!-- <li><a href="#">⭐ Nível físico</a></li>
                 <li><a href="#">📈 Evolução</a></li>
                 <li><a href="#">💡 Sugestões</a></li>
                 <li><a href="#">📄 Relatórios</a></li>
-                <li><a href="#">📦 Treinos</a></li>
+                <li><a href="#">📦 Treinos</a></li> -->
             </ul>
         </div>
-        <a href="#" class="sair-link">Sair</a>
+        <a href="../index.php" class="sair-link">Sair</a>
     </div>
 
     <div class="main-content">

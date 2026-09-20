@@ -5,36 +5,49 @@ require_once("factory/conexao.php");
 
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ATIScore - Seu desempenho físico</title>
   <link rel="stylesheet" href="./css/style_index.css">
 </head>
+
 <body>
 
   <header class="navbar">
     <div class="logo">
       <span>ATI</span>Score
     </div>
+
     <nav class="nav-links">
-      <a href="./view/avaliacoes.php">Avaliações</a>
-      <a href="#">Sobre</a>
-      <a href="./view/login.php" class="btn-login">Entrar</a>
-      <a href="./view/cadastro.php" class="btn-signup">Cadastrar-se</a>
+      <?php if (isset($_SESSION['usuario_id'])): ?>
+        <a href="./view/avaliacoes.php">Avaliações</a>
+        <span class="nav-user">Olá, <?php echo htmlspecialchars($_SESSION['usuario_nome']); ?></span>
+        <a href="./factory/logout.php" class="btn-login">Sair</a>
+      <?php else: ?>
+        <a href="./view/login.php">Avaliações</a>
+        <a href="./view/login.php" class="btn-login">Entrar</a>
+        <a href="./view/cadastro.php" class="btn-signup">Cadastrar-se</a>
+      <?php endif; ?>
     </nav>
+
   </header>
 
   <section class="hero">
     <div class="hero-content">
       <h1>Seu desempenho físico.</h1>
       <p>
-        Acompanhe sua evolução física com avaliações detalhadas, 
-        sugestões de treinos personalizados e relatórios gerados 
+        Acompanhe sua evolução física com avaliações detalhadas,
+        sugestões de treinos personalizados e relatórios gerados
         especialmente para o seu biotipo.
       </p>
       <div class="hero-buttons">
-        <a href="#" class="btn-primary">Começar agora</a>
+        <?php if (isset($_SESSION['usuario_id'])): ?>
+          <a href="./view/avaliacoes.php" class="btn-primary">Começar agora</a>
+        <?php else: ?>
+          <a href="./view/login.php" class="btn-primary">Começar agora</a>
+        <?php endif; ?>
         <a href="#" class="btn-secondary">Saiba mais</a>
       </div>
     </div>
@@ -49,7 +62,9 @@ require_once("factory/conexao.php");
         <div class="icon-box">
           <!-- Ícone Prancheta -->
           <svg width="20" height="20" fill="none" stroke="#0066FF" stroke-width="2" viewBox="0 0 24 24">
-            <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path>
+            <path
+              d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2">
+            </path>
           </svg>
         </div>
         <h3>Avaliações completas</h3>
@@ -85,7 +100,9 @@ require_once("factory/conexao.php");
         <div class="icon-box">
           <!-- Ícone Documento -->
           <svg width="20" height="20" fill="none" stroke="#0066FF" stroke-width="2" viewBox="0 0 24 24">
-            <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            <path
+              d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z">
+            </path>
           </svg>
         </div>
         <h3>Relatórios detalhados</h3>
@@ -96,4 +113,5 @@ require_once("factory/conexao.php");
   </section>
 
 </body>
+
 </html>

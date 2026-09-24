@@ -1,0 +1,131 @@
+[22-Sep-2026 13:23:09 America/Fortaleza] PHP Warning:  require_once(../includes/auth.php): Failed to open stream: No such file or directory in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 2
+[22-Sep-2026 13:23:09 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../includes/auth.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php:2
+Stack trace:
+#0 {main}
+  thrown in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 2
+[22-Sep-2026 13:23:14 America/Fortaleza] PHP Warning:  require_once(../includes/auth.php): Failed to open stream: No such file or directory in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 2
+[22-Sep-2026 13:23:14 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../includes/auth.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php:2
+Stack trace:
+#0 {main}
+  thrown in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 2
+[22-Sep-2026 13:23:17 America/Fortaleza] PHP Warning:  require_once(../includes/auth.php): Failed to open stream: No such file or directory in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 2
+[22-Sep-2026 13:23:17 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../includes/auth.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php:2
+Stack trace:
+#0 {main}
+  thrown in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 2
+[22-Sep-2026 13:26:23 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class "Usuario" not found in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php:4
+Stack trace:
+#0 {main}
+  thrown in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 4
+[22-Sep-2026 13:26:24 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class "Usuario" not found in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php:4
+Stack trace:
+#0 {main}
+  thrown in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 4
+[22-Sep-2026 13:26:26 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class "Usuario" not found in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php:4
+Stack trace:
+#0 {main}
+  thrown in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 4
+[22-Sep-2026 13:26:27 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class "Usuario" not found in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php:4
+Stack trace:
+#0 {main}
+  thrown in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 4
+[22-Sep-2026 13:26:41 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class "Usuario" not found in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php:4
+Stack trace:
+#0 {main}
+  thrown in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 4
+[22-Sep-2026 13:27:03 America/Fortaleza] PHP Warning:  Undefined variable $idade in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 55
+[22-Sep-2026 13:27:03 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 55
+[22-Sep-2026 13:27:03 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 62
+[22-Sep-2026 13:27:03 America/Fortaleza] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 170
+[22-Sep-2026 13:27:03 America/Fortaleza] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 170
+[22-Sep-2026 13:32:21 America/Fortaleza] PHP Warning:  Undefined variable $idade in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:32:21 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:32:21 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 41
+[22-Sep-2026 13:32:22 America/Fortaleza] PHP Warning:  Undefined variable $idade in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:32:22 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:32:22 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 41
+[22-Sep-2026 13:33:24 America/Fortaleza] PHP Warning:  Undefined variable $idade in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:33:24 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:33:24 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 41
+[22-Sep-2026 13:33:25 America/Fortaleza] PHP Warning:  Undefined variable $idade in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:33:25 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:33:25 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 41
+[22-Sep-2026 13:33:53 America/Fortaleza] PHP Warning:  Undefined variable $idade in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:33:53 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:33:53 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 41
+[22-Sep-2026 13:38:17 America/Fortaleza] PHP Warning:  Undefined variable $idade in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:38:17 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:38:17 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 41
+[22-Sep-2026 13:38:32 America/Fortaleza] PHP Warning:  Undefined variable $idade in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:38:32 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:38:32 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 41
+[22-Sep-2026 13:44:51 America/Fortaleza] PHP Warning:  Undefined variable $idade in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:44:51 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:44:51 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 41
+[22-Sep-2026 13:44:51 America/Fortaleza] PHP Warning:  Undefined variable $idade in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:44:51 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:44:51 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 41
+[22-Sep-2026 13:44:51 America/Fortaleza] PHP Warning:  Undefined variable $idade in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:44:51 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:44:51 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 41
+[22-Sep-2026 13:44:51 America/Fortaleza] PHP Warning:  Undefined variable $idade in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:44:51 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:44:51 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 41
+[22-Sep-2026 13:45:00 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home3/administrador/public_html/info042026/projetoatiscore/factory/auth.php on line 2
+[22-Sep-2026 13:45:00 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/administrador/public_html/info042026/projetoatiscore/view/resultado.php:1) in /home3/administrador/public_html/info042026/projetoatiscore/factory/auth.php on line 5
+[22-Sep-2026 13:45:43 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home3/administrador/public_html/info042026/projetoatiscore/factory/auth.php on line 2
+[22-Sep-2026 13:45:43 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/administrador/public_html/info042026/projetoatiscore/view/resultado.php:1) in /home3/administrador/public_html/info042026/projetoatiscore/factory/auth.php on line 5
+[22-Sep-2026 13:45:45 America/Fortaleza] PHP Warning:  Undefined variable $idade in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:45:45 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:45:45 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 41
+[22-Sep-2026 13:46:28 America/Fortaleza] PHP Warning:  Undefined variable $idade in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:46:28 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:46:28 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 41
+[22-Sep-2026 13:46:30 America/Fortaleza] PHP Warning:  Undefined variable $idade in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:46:30 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:46:30 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 41
+[22-Sep-2026 13:46:31 America/Fortaleza] PHP Warning:  Undefined variable $idade in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:46:31 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 13:46:31 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 41
+[22-Sep-2026 13:46:43 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class "IPAQCalculator" not found in /home3/administrador/public_html/info042026/projetoatiscore/view/resultado.php:53
+Stack trace:
+#0 {main}
+  thrown in /home3/administrador/public_html/info042026/projetoatiscore/view/resultado.php on line 53
+[22-Sep-2026 14:01:45 America/Fortaleza] PHP Warning:  Undefined variable $idade in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 14:01:45 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 14:01:45 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 41
+[22-Sep-2026 14:01:47 America/Fortaleza] PHP Warning:  Undefined variable $idade in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 14:01:47 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 14:01:47 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 41
+[22-Sep-2026 14:01:47 America/Fortaleza] PHP Warning:  Undefined variable $idade in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 14:01:47 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 14:01:47 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 41
+[22-Sep-2026 14:01:48 America/Fortaleza] PHP Warning:  Undefined variable $idade in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 14:01:48 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 14:01:48 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 41
+[22-Sep-2026 14:01:59 America/Fortaleza] PHP Warning:  Undefined variable $idade in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 14:01:59 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 14:01:59 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 41
+[22-Sep-2026 14:02:01 America/Fortaleza] PHP Warning:  Undefined variable $idade in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 14:02:01 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 14:02:01 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 41
+[22-Sep-2026 14:02:06 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class "IPAQCalculator" not found in /home3/administrador/public_html/info042026/projetoatiscore/view/resultado.php:53
+Stack trace:
+#0 {main}
+  thrown in /home3/administrador/public_html/info042026/projetoatiscore/view/resultado.php on line 53
+[22-Sep-2026 14:02:25 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class "IPAQCalculator" not found in /home3/administrador/public_html/info042026/projetoatiscore/view/resultado.php:53
+Stack trace:
+#0 {main}
+  thrown in /home3/administrador/public_html/info042026/projetoatiscore/view/resultado.php on line 53
+[22-Sep-2026 14:06:36 America/Fortaleza] PHP Warning:  Undefined variable $idade in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 14:06:36 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 14:06:36 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 41
+[22-Sep-2026 14:06:37 America/Fortaleza] PHP Warning:  Undefined variable $idade in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 14:06:37 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 14:06:37 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 41
+[22-Sep-2026 14:06:38 America/Fortaleza] PHP Warning:  Undefined variable $idade in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 14:06:38 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 14:06:38 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 41
+[22-Sep-2026 14:06:39 America/Fortaleza] PHP Warning:  Undefined variable $idade in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 14:06:39 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 31
+[22-Sep-2026 14:06:39 America/Fortaleza] PHP Warning:  Undefined variable $peso in /home3/administrador/public_html/info042026/projetoatiscore/view/questionario.php on line 41

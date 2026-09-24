@@ -35,13 +35,13 @@ require_once('../factory/auth.php');
         <p class="subtitle">Complete as etapas abaixo para gerar um novo relatório de desempenho.</p>
 
         <div class="steps-card">
-            <div class="step-item">
+            <!-- <div class="step-item">
                 <div class="step-number">1</div>
                 <div class="step-info">
                     <h3>Informações iniciais</h3>
                     <p>Histórico de saúde, rotina e objetivos gerais.</p>
                 </div>
-            </div>
+            </div> -->
 
             <div class="step-item">
                 <div class="step-number">2</div>
@@ -51,33 +51,33 @@ require_once('../factory/auth.php');
                 </div>
             </div>
 
-            <div class="step-item">
+            <!-- <div class="step-item">
                 <div class="step-number">3</div>
                 <div class="step-info">
                     <h3>Medidas corporais</h3>
                     <p>Registro de peso, altura, circunferências e dobras.</p>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="step-item">
+            <!-- <div class="step-item">
                 <div class="step-number">4</div>
                 <div class="step-info">
                     <h3>Desempenho físico</h3>
                     <p>Testes rápidos de resistência e força.</p>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="step-item">
+            <!-- <div class="step-item">
                 <div class="step-number">5</div>
                 <div class="step-info">
                     <h3>Revisão e conclusão</h3>
                     <p>Envio de respostas para cálculo final.</p>
                 </div>
-            </div>
+            </div> -->
         </div>
 
         <div class="btn-container" style="margin-top: 25px;">
-            <button type="button" class="btn-primary">Começar avaliação</button>
+            <a href="../view/questionario.php"><button type="button" class="btn-primary">Começar avaliação</button></a>
         </div>
     </div>
 </div>
